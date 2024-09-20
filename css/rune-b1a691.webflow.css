@@ -963,10 +963,13 @@
 
 .statistics-section_card-anim {
     z-index: 2;
-    width: 100px;
-    height: 129px;
+    width: 106px;
+    height: 107px;
     position: absolute;
-    inset: auto 18px 0 auto;
+    inset: auto 27px 0 auto;
+}
+.ex{
+    margin-left: 10px;
 }
 
 .statistics-section_card-center {
@@ -1196,7 +1199,7 @@
     letter-spacing: .01em;
     text-transform: capitalize;
     font-family: Spacemono, sans-serif;
-    font-size: 80px;
+    font-size: 60px;
     line-height: 100%;
     position: absolute;
     bottom: 35px;
@@ -2674,8 +2677,11 @@
         line-height: .875rem;
     }
     .statistics-section_card-anim {
-        width: 80px;
-        bottom: -3px;
+        width: 84px;
+        bottom: -22px;
+    }
+    .ex{
+        margin-left: 10px;
     }
     .limitation-section {
         padding: 117px 24px 120px;
@@ -2761,7 +2767,7 @@
         line-height: 40px;
     }
     .statistics-section_card-wrapper {
-        font-size: 3.75rem;
+        font-size: 2.75rem;
         line-height: 3.75rem;
     }
     .page-background {
